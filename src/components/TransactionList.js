@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Transaction from "./Transaction";
 import { FaWindowClose } from 'react-icons/fa'
 export default function TransactionList({ transactions, showTransaction }) {

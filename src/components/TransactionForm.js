@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import {
   addTransaction,
   CATEGORIES,
 } from '../features/transactions/transactionsSlice';
-import { v4 as uuidv4 } from 'uuid';
-import { getByAltText } from '@testing-library/react';
 
 export default function TransactionForm({ categories, tranaction }) {
   const dispatch = useDispatch();
@@ -24,7 +22,7 @@ export default function TransactionForm({ categories, tranaction }) {
         category: category,
         description: description,
         amount: parseFloat(amount),
-        id: uuidv4(),
+        id: Date.now()
       })
     );
     setCategory(CATEGORIES[0]);
