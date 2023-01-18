@@ -26,7 +26,7 @@ body {
 .transaction-btn {
   color: #141c3a;
   border: none; /* Remove borders */
-  font-size: 23px; /* Set a font size */
+  font-size: 40px; /* Set a font size */
   cursor: pointer; /* Mouse pointer on hover */
   width: 60px;
   height: 60px;
@@ -48,27 +48,27 @@ body {
   display: flex;
 }
 h1 {
-  font-size: 24px;
+  font-size: 53px;
   font-weight: bold;
   margin-bottom: 32px;
 }
 
 h2 {
-  font-size: 22px;
+  font-size: 48px;
   font-weight: bold;
   margin-top: 0px;
   margin-bottom: 32px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 30px;
   font-weight: bold;
   margin: 2px 0px 0px 0px;
   
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
   margin: 0;
 }
